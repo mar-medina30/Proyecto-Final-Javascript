@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-carrito">
+        <a class="btn-volver" href="./index.html"><i class="fa-solid fa-arrow-left flecha"></i>volver al inicio</a>
+        <h1 class="titulo-carrito">Carrito</h1>
+    </nav>
+
+    <div class="contenedor-carrito">
+        <p id="carrito-vacio" class="carrito-vacio">No hay libros en el carrito</p>
+        
+        <div id="cont-libros-carrito" class="cont-carrito-libros">
+            <!-- LIBROS EN EL CARRITO -->
+        </div>
+
+        <div id="carrito-botones" class="carrito-btn">
+            <div class="carrito-btn-left">
+                <button id="vaciar-carrito">VACIAR CARRITO</button>
+            </div>
+            <div class="carrito-btn-right">
+                <div id="carrito-total">
+                    <p>Total</p>
+                    <p id="total">$0</p>
+                </div>
+                <button id="carrito-comprar">COMPRAR</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="carrito.js"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.9.1/dist/sweetalert2.all.min.js
+    "></script>
+</body>
+</html>

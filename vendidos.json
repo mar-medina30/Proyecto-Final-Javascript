@@ -1,0 +1,8 @@
+[
+    {"id": 25, "nombre": "Heartstopper Tomo 1", "imagen": "images/sagah.webp", "categoría": {"id":"juvenil"}, "genero": "romantico", "autor": "Alice Oseman", "precio": 4500},
+    {"id": 26, "nombre": "Los 7 maridos de Evelyn Hugo", "imagen": "images/los7.webp", "categoría": {"id":"juvenil"}, "genero": "romantico", "autor": "Taylor Jenkins Reid", "precio": 6200},
+    {"id": 27, "nombre": "Una luna sin miel", "imagen": "images/sinmiel.jfif", "categoría": {"id":"juvenil"}, "genero": "romantico", "autor": "Christina Lauren", "precio": 6800},
+    {"id": 7, "nombre": "Antes de diciembre", "imagen": "images/antes.jfif", "categoría": {"id":"juvenil"}, "genero": "romantico", "autor": "Joana Marcus", "precio": 7200},
+    {"id": 12, "nombre": "Rota se camina igual", "imagen": "images/rota.png", "categoría": {"id":"bienestar"}, "genero": "autoayuda", "autor": "Lorena Pronsky", "precio": 5500 },
+    {"id": 3, "nombre": "El chico que dibujaba constelaciones", "imagen": "images/elchico.jpg", "categoría": {"id":"juvenil"}, "genero": "romantico", "autor": "TJ Klune", "precio": 4800}
+]

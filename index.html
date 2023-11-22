@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constelaciones Libros</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav-inicio">
+        <h1 class="logo">CONSTELACIONES libros</h1>
+        <ul class="nav" id="filtrar-libros">
+            <li>
+                <button id="todos" class="boton-menu btn-categoria active"><i class="bi bi-hand-index-thumb-fill"></i>Todos</button>
+            </li>
+            <li>
+                <button id="juvenil" class="boton-menu btn-categoria"><i class="bi bi-hand-index-thumb"></i>Juvenil</button>
+            </li>
+            <li>
+                <button id="bienestar" class="boton-menu btn-categoria"><i class="bi bi-hand-index-thumb"></i>Bienestar</button>
+            </li>
+            <li>
+                <button id="sagas" class="boton-menu btn-categoria"><i class="bi bi-hand-index-thumb"></i>Sagas</button>
+            </li>
+            <li>
+                <a class="boton-menu boton-carrito" href="./carrito.html"></a>
+            </li>
+        </ul>
+
+        <a href="carrito.html"><i class="fa-solid fa-cart-shopping carrito" id="btn-carrito"></i></a>
+    </nav>
+    
+    <div class="bienvenida">
+        <h1 class="titulo">BIENVENIDO A <br>CONSTELACIONES LIBROS</h1>
+        <p class="texto">En esta plataforma podrás encontrar <br>tu próxima lectura al mejor precio</p>
+    </div>
+
+    <h2 class="libros-todos" id="titulo-categoria">todos los libros</h2>
+    <div id="contenedor-libros" class="contenedor-libros">
+        <!-- LIBROS AGREGADOS CON JAVASCRIPT -->
+    </div>
+
+    <h2 id="mas-vendidos">Libros más vendidos</h2>
+    <div id="libros-mas-vendidos">
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.9.1/dist/sweetalert2.all.min.js
+    "></script>
+</body>
+
+</html>
